@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color:#6699cc;
+}
+
+.container h1{
+    color: white;
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+.signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-family: sans-serif;
+    background-color: #154a68;
+    padding: 20px;
+}
+.signup input {
+    border: none;
+    padding: 5px;
+    margin-top: 5px;
+    font-family: sans-serif;
+}
+
+.signup input:focus{
+    box-shadow: 3px 3px 10px rgb(228, 228, 228), -3px -3px 10pz rgb(224, 224, 224);
+}
+
+.signup .register{
+    width: 100%;
+    padding: 8px 0;
+    font-size: 20px;
+    color: rgb(44, 44, 44);
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+
+.signup .register:hover {
+    box-shadow: 3px 3px 6px rgb(255, 214, 176);
+}
+/* body{
+    display: flex;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.signup{
+    padding: 20px;
+    background-color: aliceblue;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 70px;
+    backdrop-filter: blur(10px);
+    box-shadow: 10px 10px 20px black;
+}
+.signup #header{
+    text-align: center;
+    font-size:30px;
+    font-weight: bolder;
+} */

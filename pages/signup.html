@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script type="text/javascript" src="./script.js"></script>
+    <title>Sign Up</title>
+</head>
+<body>
+<div class="container">
+    <h1 id="header">SIGN UP</h1>
+    <form name="signupForm" class="signup" onsubmit="return formValidation()">
+    <table>    
+        <tr>
+            <td><label for="name">Name:</label></td>
+            <td><input type="text" name="name" id="name" placeholder="Enter your Name" required></td>
+        </tr>
+        <tr>
+            <td><label for="email">Email ID:</label></td>
+            <td><input type="email" name="email" id="email" placeholder="Enter your Email Id"></td>
+        </tr>
+        <tr>
+            <td><label for="gender">Gender:</label></td>
+            <td>Male <input type="radio" name="gender" id="male">
+                Female <input type="radio" name="gender" id="female">
+                <!--Other<input type="radio" name="other" id="other">-->
+            </td>
+        </tr>
+        <tr>
+            <td><label for="dob">D.O.B:</label></td>
+            <td><input type="date" name="dob" id="dob" required></td>
+        </tr>
+        <tr>
+            <td><label for="phoneNum">Phone Number:</label></td>
+            <td><input type="tel" name="phone" id="phone" required></td>
+        </tr>
+        <tr>
+            <td><label for="password">Password:</label></td>
+            <td><input type="password" name="pwd" id="pwd" placeholder="Enter your password" required></td>
+        </tr>
+        <tr>
+            <td><label for="rePassword">Re-Enter Password:</label></td>
+            <td><input type="password" name="repwd" id="repwd" placeholder="Re-enter your password" required></td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="submit"  value="Register" class="register"></td>
+            <!-- <td><input type="reset" value="Reset" id="clear"></td> -->
+        </tr>
+    </table>
+    </form>
+</div>
+</body>
+</html>
